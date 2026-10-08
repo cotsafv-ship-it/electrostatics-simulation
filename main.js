@@ -17,7 +17,8 @@ class Vector {
     }
 
     add(...args) {
-        let xsum, ysum, zsum = 0
+        let xsum, ysum, zsum
+        xsum = ysum = zsum = 0
         for (i=0;i < args.length; i++) {
             args[i].x += xsum
             args[i].y += ysum
